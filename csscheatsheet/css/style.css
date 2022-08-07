@@ -28,12 +28,36 @@ a:active{
     color:purple;
 }
 a:visited{
-    color:black;
+    
 }
 
 .container{
     width: 80%;
     margin:auto;
+}
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button-1{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background:red;
+    color:#fff;
+}
+
+.button-1:hover{
+    background:red;
+    color:#fff;
 }
 
 .box-1{
@@ -94,3 +118,34 @@ margin:20px 0;
     border-bottom:dotted 1px #333;
     list-style-image: url('../images/check.png');
 }
+.form-group{
+    padding:20px;
+    margin-left:8%
+}
+
+.form-group{
+    padding-bottom: 15px;
+    margin-right:10%;
+}
+
+.form-group label{
+    display:block;
+}
+.button{
+    margin-left:9.1%;
+}
+
+.form-group input{
+    padding:8px;
+    width:100%;
+}
+
+.block{
+    
+    float:left;
+    width:20%;
+    padding-left:10%;
+
+}
+
+
